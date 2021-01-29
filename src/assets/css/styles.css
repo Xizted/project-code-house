@@ -383,6 +383,21 @@ nav {
             nav .container-fluid .containerItem .navbar-nav .nav-item a {
               text-align: left; } }
 
+/*====================================
+      404 Page
+====================================*/
+.section404 {
+  height: 100vmin;
+  padding-top: 120px;
+  width: 100%; }
+  @media only screen and (max-width: 1280px) {
+    .section404 {
+      padding-top: 180px; } }
+  @media only screen and (max-width: 620px) {
+    .section404 {
+      height: initial;
+      padding-bottom: 100px; } }
+
 /**************************************
                   Home
   **************************************/

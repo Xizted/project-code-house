@@ -161,6 +161,23 @@ nav {
   }
 }
 
+/*====================================
+      404 Page
+====================================*/
+
+.section404 {
+  height: 100vmin;
+  padding-top: 120px;
+  width: 100%;
+  @include display(1280px) {
+    padding-top: 180px;
+  }
+  @include display(620px) {
+    height: initial;
+    padding-bottom: 100px;
+  }
+}
+
 /**************************************
                   Home
   **************************************/
