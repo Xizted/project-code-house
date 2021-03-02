@@ -1,0 +1,87 @@
+.list {
+  padding: 0;
+  margin: 0;
+  display: block;
+  list-style: none;
+
+  .list-item {
+    padding: 0;
+    display: block;
+    list-style: none;
+    .list-link {
+      color: $gray-color;
+      font-size: 1rem;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      align-items: center;
+      -ms-flex-align: center;
+      padding: 0.75rem 1.5rem;
+      transition: all 0.15s ease;
+      -webkit-transition: all 0.15s ease;
+      -moz-transition: all 0.15s ease;
+      -ms-transition: all 0.15s ease;
+      -o-transition: all 0.15s ease;
+      .list-text {
+        color: $gray-color;
+        transition: all 0.15s ease;
+        -webkit-transition: all 0.15s ease;
+        -moz-transition: all 0.15s ease;
+        -ms-transition: all 0.15s ease;
+        -o-transition: all 0.15s ease;
+        font-size: 1rem;
+        flex-grow: 1;
+        -webkit-box-flex: 1;
+        -mx-flex-positive: 1;
+      }
+      .list-icon {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 1rem;
+        -webkit-transition: all 0.15s ease;
+        -ms-transition: all 0.15s ease;
+        -o-transition: all 0.15s ease;
+        -moz-transition: all 0.15s ease;
+        flex: 0 0 1rem;
+        line-height: 0;
+        transition: all 0.15s ease;
+      }
+      .icon-drop {
+        display: inline-block;
+        -ms-flex-negative: 0;
+        flex-shrink: 0;
+        position: relative;
+        border-radius: 0.675rem;
+        -webkit-border-radius: 0.675rem;
+        -moz-border-radius: 0.675rem;
+        -ms-border-radius: 0.675rem;
+        -o-border-radius: 0.675rem;
+        & > img {
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          border-radius: 0.675rem;
+          -webkit-border-radius: 0.675rem;
+          -moz-border-radius: 0.675rem;
+          -ms-border-radius: 0.675rem;
+          -o-border-radius: 0.675rem;
+          width: 100%;
+          max-width: 50px;
+          height: 50px;
+        }
+        &.icon-drop-20 > img {
+          width: 100%;
+          max-width: 20px;
+          height: 20px;
+        }
+      }
+    }
+  }
+  &.list-hover .list-item .list-link:hover {
+    background-color: #f1f1f1;
+    transition: all 0.15s ease;
+    -webkit-transition: all 0.15s ease;
+    -moz-transition: all 0.15s ease;
+    -ms-transition: all 0.15s ease;
+    -o-transition: all 0.15s ease;
+  }
+}
