@@ -98,6 +98,9 @@ hr {
   ====================================*/
 .c-custom {
   padding: 150px 80px 100px; }
+  @media only screen and (max-width: 1200px) {
+    .c-custom {
+      padding: 150px 40px 0px 40px; } }
 
 /*====================================
           Backgrounds
@@ -432,6 +435,9 @@ nav {
         .home .home__container .home__info {
           text-align: center;
           padding: 0; } }
+      @media only screen and (max-width: 768px) {
+        .home .home__container .home__info {
+          padding: 5rem 1rem 2rem 1rem; } }
       .home .home__container .home__info .socialLinks li a i {
         font-size: 1.5rem;
         margin-right: 27px;
@@ -498,9 +504,10 @@ nav {
       .about .container .about__Info .about__text {
         text-align: justify; } }
   @media only screen and (max-width: 1200px) {
-    .about .container .about__Info .about__imgAbout {
-      margin-left: 0; } }
-  .about .container .about__Info .about__imgAbout img {
+    .about .container .about__imgAbout {
+      margin-left: 0;
+      margin-top: 3rem; } }
+  .about .container .about__imgAbout img {
     max-width: 100%;
     height: auto;
     -webkit-box-shadow: 0 0 10px 0 #fff;
@@ -517,6 +524,10 @@ nav {
 
 .discography .container {
   padding: 150px 80px 100px; }
+  @media only screen and (max-width: 1200px) {
+    .discography .container {
+      padding: 0;
+      padding-top: 150px; } }
   @media only screen and (max-width: 1200px) {
     .discography .container .discography__title {
       text-align: center; } }
@@ -549,7 +560,7 @@ nav {
 .youtubeSection {
   position: relative;
   background: url(../img/bg-youtube.jpg) 50%/cover fixed;
-  padding: 100px;
+  padding: 5rem;
   z-index: 1; }
   .youtubeSection .youtubeSection__title-font-size {
     font-size: 2rem; }
@@ -677,6 +688,9 @@ nav {
   .contactSection .container form input::placeholder {
     font-weight: 600;
     color: #303030; }
+  @media only screen and (max-width: 1200px) {
+    .contactSection .container form input {
+      margin-bottom: 1rem; } }
 
 .contactSection .container form .personalInfo {
   display: flex;
@@ -689,7 +703,8 @@ nav {
     width: 50%; }
     @media only screen and (max-width: 1200px) {
       .contactSection .container form .personalInfo input {
-        width: 100%; } }
+        width: 100%;
+        margin-bottom: 1rem; } }
 
 .contactSection .container form .subjectInfo input {
   margin: 20px 0;
@@ -753,7 +768,7 @@ footer {
             font-size: 1.25rem; } }
       @media only screen and (max-width: 1200px) {
         footer .container .contactInfo ul {
-          font-siz: 1rem; } }
+          font-size: 1rem; } }
   footer,
   footer .copyright {
     border-top: #303030 1px solid; }

@@ -160,6 +160,9 @@ hr {
 
 .c-custom {
   padding: 150px 80px 100px;
+  @include display(1200px) {
+    padding: 150px 40px 0px 40px;
+  }
 }
 
 /*====================================
